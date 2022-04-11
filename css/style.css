@@ -4,6 +4,9 @@ html, body {
     background-color: #EBEAEA;
     }
     
+html {
+    scroll-behavior: smooth;
+}
     
     .bg-container {
         margin: 0%;
@@ -16,14 +19,12 @@ html, body {
     }
     
     
-    #castle{
-        width:100%;
-    }
+   
     
     #contact {
     position: fixed;
     top: 5%;
-    left: 90%;
+    left: 93%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #0000;
@@ -49,25 +50,27 @@ html, body {
         width: 70px;
         position: fixed;
         top: 5%;
-        left: 80%;
+        left: 83%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         background-color: #0000;
         padding: 12px 24px;
         border: none;
         cursor: pointer;
+        
         }
     
     #work:hover {
         position: fixed;
         background-image: url("/images/work2.png");
         background-repeat: no-repeat;
+        
     }
     
     #about {
         position: fixed;
         top: 5%;
-        left: 70%;
+        left: 73%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         background-color: #0000;
@@ -84,6 +87,15 @@ html, body {
         position: fixed;
         background-image: url("/images/about2.png");
         background-repeat: no-repeat;
+        
+    }
+
+    #about:active {
+        background-image: url("/images/about3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
     }
     
     #topbtn {
@@ -100,6 +112,7 @@ html, body {
         cursor: pointer;
         height: 95px;
         width: 116px;
+        transition-duration: 600ms;
         
         }
     
@@ -107,6 +120,15 @@ html, body {
         position: fixed;
         background-image: url("/images/back\ to\ top2.png");
         background-repeat: no-repeat;
+        transition-duration: 600ms;
+    }
+
+    #topbtn:active {
+        background-image: url("/images/back\ to\ top3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
     }
     
     
@@ -133,8 +155,15 @@ width: 100%;
     width:30%;
     border: 3px solid black;
     text-align: center;
+  
+}
 
-
+#scrollToAbout {
+    position: absolute;
+    margin-top:-382%;
+    margin-left: 10%;
+    width:30%;
+     
 }
 
 
@@ -148,12 +177,46 @@ width: 100%;
     
 }
 
+#scrollToWork {
+    position: absolute;
+    margin-top:-311%;
+    margin-left: 58%;
+    width:30%;
+    
+}
+
 #contactMe {
     width: 30%;
     position: absolute;
     margin-left: 10%;
-    margin-top: -158%;
+    margin-top: -158.5%;
     border: 3px solid black;
     text-align: center;
     
 }
+
+#scrollToContact {
+    position: absolute;
+    margin-top:-168.5%;
+    margin-left: 10%;
+    width:30%;
+     
+}
+
+#flag4 {
+    position: absolute;
+    margin-top:-87.5%;
+    margin-left: 58%;
+    width:30%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+/* #scrollToFlag4 {
+    position: absolute;
+    margin-top:-97.5%;
+    margin-left: 58%;
+    width:30%;
+     
+} */
