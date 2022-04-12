@@ -12,7 +12,10 @@
     
 
     <body>
-       
+        <div id="aboutOverlay">
+            <img src="images/portrait.jpg" id="portraitimg" >
+
+        </div> 
 
         <div class="scroll">
             
@@ -32,14 +35,20 @@
 
                 <div id="aboutMe">
                     <h1>About Me</h1>
-                    <p>I am an enthusiastic problem-solver who will bring pixel perfection and a dollop of charisma to any project, team, or tea party!</p>
+                    <p>Originally hailing from the San Francisco Bay Area where I apprenticed with and worked alongside a professional mural artist, I pivoted to the digital realm upon relocating to Portland, Oregon. <br> I am an enthusiastic problem-solver who will bring pixel perfection and a dollop of charisma to any project, team, or tea party!    </p>
+                    <button id="aboutShield" onclick="aboutOn" media="(max-width: 30px)></button>
+                    
                 </div>
+
+                
+
 
                 <div id="scrollToWork"></div>
 
                 <div id="myWork">
                     <h1>My Work</h1>
                     <p>this is whatever</p>
+                    <button id=workShield></button>
                 </div>
 
 
@@ -48,6 +57,7 @@
                 <div id="contactMe">
                     <h1>Contact Me</h1>
                     <p>this is whatever</p>
+                    <button id=contactShield></button>
                 </div>
 
                 <div id="scrollToFlag4"></div>
@@ -55,6 +65,7 @@
                 <div id="flag4">
                     <h1>TBD</h1>
                     <p>this is whatever</p>
+                    <!-- <button id=flag4Shield></button> -->
                 </div>
 
             </div>
@@ -67,6 +78,10 @@
             </button>
 
             <button id="contact" onclick="contactScroll()">
+
+            </button>
+
+            <button id="flag4btn" onclick="flag4Scroll()">
 
             </button>
             

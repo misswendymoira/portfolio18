@@ -17,12 +17,20 @@ function workScroll() {
 }
 
 
+function flag4Scroll() {
+    const fl4scr = document.getElementById("scrollToFlag4");
+    fl4scr.scrollIntoView();
+}
+
 function contactScroll() {
     const cntscr = document.getElementById("scrollToContact");
     cntscr.scrollIntoView();
 }
 
-// function flag4Scroll() {
-//     const fl4scr = document.getElementById("scrollToFlag4");
-//     fl4scr.scrollIntoView();
-// }
+function aboutOn() {
+    document.getElementById("aboutOverlay").style.display = "block";
+  }
+  
+  function aboutOff() {
+    document.getElementById("aboutOverlay").style.display = "none";
+  }
